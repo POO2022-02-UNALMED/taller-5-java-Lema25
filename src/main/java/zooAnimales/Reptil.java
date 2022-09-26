@@ -3,11 +3,11 @@ package zooAnimales;
 import java.util.ArrayList;
 
 public class Reptil extends Animal{
-	ArrayList<Reptil> listado = new ArrayList<Reptil>();
-	int iguanas;
-	int serpientes;
-	String ColorEscamas;
-	int largoCola;
+	private static ArrayList<Reptil> listado = new ArrayList<Reptil>();
+	public static int iguanas;
+	public staticint serpientes;
+	private String ColorEscamas;
+	private int largoCola;
 	
 	public Reptil() {
 		listado.add(this);

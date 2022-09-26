@@ -10,9 +10,9 @@ import zooAnimales.Mamifero;
 import zooAnimales.Anfibio;
 
 public class Zona {
-	String nombre;
-	Zoologico zoo;
-	ArrayList<Animal> animales = new ArrayList<Animal>();
+	private String nombre;
+	private Zoologico zoo;
+	private ArrayList<Animal> animales = new ArrayList<Animal>();
 	
 	public Zona() {
 		super();

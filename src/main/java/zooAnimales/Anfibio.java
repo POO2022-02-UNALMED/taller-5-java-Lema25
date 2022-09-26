@@ -3,11 +3,11 @@ package zooAnimales;
 import java.util.ArrayList;
 
 public class Anfibio extends Animal{
-	ArrayList<Anfibio> listado = new ArrayList<Anfibio>();
-	int ranas;
-	int salamandra;
-	String colorPiel;
-	boolean venenoso;
+	private static ArrayList<Anfibio> listado = new ArrayList<Anfibio>();
+	public static int ranas;
+	public static int salamandra;
+	private String colorPiel;
+	private boolean venenoso;
 	
 	public Anfibio() {
 		listado.add(this);

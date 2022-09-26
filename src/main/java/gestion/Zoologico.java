@@ -2,9 +2,9 @@ package gestion;
 import java.util.ArrayList;
 
 public class Zoologico {
-	String nombre;
-	String ubicacion;
-	ArrayList<Zona> zona = new ArrayList<Zona>();
+	private String nombre;
+	private String ubicacion;
+	private ArrayList<Zona> zona = new ArrayList<Zona>();
 	
 	public Zoologico() {
 		super();
