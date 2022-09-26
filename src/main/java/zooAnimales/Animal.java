@@ -7,7 +7,7 @@ public class Animal {
 	int totalAnimales;
 	String nombre;
 	int edad;
-	String habitad;
+	String habitat;
 	String genero;
 	Zona zona[];
 	
@@ -87,7 +87,7 @@ public class Animal {
 	public String toString(){
 		String datos = "Mi nombre es " + this.nombre 
 				+ " tengo una edad de " + this.edad 
-				+ ", habito en "+ this.habitad
+				+ ", habito en "+ this.habitat
 				+ " y mi genero es " + this.genero;
 		return datos;
 	}
