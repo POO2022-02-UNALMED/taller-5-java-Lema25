@@ -75,7 +75,7 @@ public class Animal {
 		return "desplazarse";
 	}
 	
-	public String totalPorTipo() {
+	public static String totalPorTipo() {
 		String totales = "Mamiferos: " + Mamifero.cantidadMamiferos() 
 				+ "\n" + "Aves: " + Ave.cantidadAves() 
 				+ "\n" + "Reptiles: " + Reptil.cantidadReptiles() 
