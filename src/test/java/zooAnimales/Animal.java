@@ -9,7 +9,11 @@ public class Animal {
 	private int edad;
 	private String habitat;
 	private String genero;
-	private Zona zona[];
+	private Zoologico[] zoo;
+	
+	public Animal() {
+		super();
+	}
 	
 	public Animal(String nombre, int edad, String habitat, String genero) {
 		super();
@@ -18,11 +22,8 @@ public class Animal {
 		this.habitat = habitat;
 		this.genero = genero;
 		totalAnimales++;
-	}	
-	
-	public Animal() {
-		super();
 	}
+	
 	
 	public static int getTotalAnimales() {
 		return totalAnimales;
@@ -64,11 +65,11 @@ public class Animal {
 	}
 
 
-	public Zona[] getZona() {
-		return zona;
+	public Zoologico[] getZoo() {
+		return zoo;
 	}
-	public void setZona(Zona[] zona) {
-		this.zona = zona;
+	public void setZoo(Zoologico[] zoo) {
+		this.zoo = zoo;
 	}
 	
 	public String movimiento() {

@@ -42,13 +42,13 @@ public class Mamifero extends Animal{
 		return listado.size();
 	}
 	
-	public void crearCaballo() {
+	public static Mamifero crearCaballo() {
 		Mamifero nuevoCaballo = new Mamifero(n, e, "pradera", g, true, 4);		
 		caballos++;
 		return nuevoCaballo;
 	}
 	
-	public void crearLeon() {
+	public static Mamifero crearLeon() {
 		Mamifero nuevoLeon = new Mamifero(n, e, "selva", g, true, 4);		
 		leones++;
 		return nuevoLeon;

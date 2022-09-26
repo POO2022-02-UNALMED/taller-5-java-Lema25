@@ -41,13 +41,13 @@ public class Ave extends Animal{
 		return "volar";
 	}
 	
-	public void crearHalcon() {
+	public static Ave  crearHalcon() {
 		Ave nuevoHalcon = new Ave(n, e, "montanas", g, "cafe glorioso");
 		halcones++;
 		return nuevoHalcon;
 	}	
 	
-	public void crearAguila() {
+	public static Ave crearAguila() {
 		Ave nuevoAguila = new Ave(n, e, "montanas", g, "blanco y amarillo");
 		aguilas++;
 		return nuevoAguila;

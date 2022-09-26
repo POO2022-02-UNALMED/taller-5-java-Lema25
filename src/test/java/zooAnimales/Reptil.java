@@ -49,13 +49,13 @@ public class Reptil extends Animal{
 		return "reptar";
 	}
 	
-	public void crearIguana() {
+	public static Reptil crearIguana() {
 		Reptil nuevoIguana = new Reptil(n, e, "humedal", g, "verde", 3);
 		iguanas++;
 		return nuevoIguana;
 	}	
 	
-	public void crearSerpiente() {
+	public static Reptil  crearSerpiente() {
 		Reptil nuevoSerpiente = new Reptil(n, e, "jungla", g, "blanco", 1);
 		serpientes++;
 		return nuevoSerpiente;

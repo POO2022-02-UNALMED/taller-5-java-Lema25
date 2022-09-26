@@ -51,13 +51,13 @@ public class Anfibio extends Animal{
 		return "saltar";
 	}
 	
-	public void crearRana() {
+	public static Anfibio crearRana() {
 		Anfibio nuevoRana = new Anfibio(n, e, "selva", g, "rojo", true);
 		ranas++;
 		return nuevoRana;
 	}
 	
-	public void crearSalamandra() {
+	public static Anfibio  crearSalamandra() {
 		Anfibio nuevoSalamandra = new Anfibio(n, e, "selva", g, "negro y amarillo", false);
 		salamandras++;
 		return nuevoSalamandra;
