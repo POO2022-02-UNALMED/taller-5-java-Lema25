@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Anfibio extends Animal{
 	private static ArrayList<Anfibio> listado = new ArrayList<Anfibio>();
 	public static int ranas;
-	public static int salamandra;
+	public static int salamandras;
 	private String colorPiel;
 	private boolean venenoso;
 	
@@ -47,6 +47,7 @@ public class Anfibio extends Animal{
 		return listado.size();
 	}
 
+	@Override
 	public String movimiento() {
 		return "saltar";
 	}

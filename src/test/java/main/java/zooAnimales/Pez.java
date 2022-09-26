@@ -24,6 +24,7 @@ public class Pez extends Animal{
 		return listado.size();
 	}
 	
+	@Override
 	public String movimiento() {
 		return "nadar";
 	}
