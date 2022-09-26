@@ -30,7 +30,7 @@ public class Zoologico {
 	public void setUbicacion(String ubicacion) {
 		this.ubicacion = ubicacion;
 	}
-	
+
 	public ArrayList<Zona> getZona() {
 		return zona;
 	}
@@ -38,8 +38,8 @@ public class Zoologico {
 		this.zona = zonas;
 	}
 	
-	public void agregarZonas(Zona add){
-		zona.add(add);
+	public void agregarZonas(Zona nZona){
+		zona.add(nZona);
 	}
 	
 	public int cantidadTotalAnimales() {

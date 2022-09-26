@@ -24,7 +24,6 @@ public class Animal {
 		totalAnimales++;
 	}
 	
-	
 	public static int getTotalAnimales() {
 		return totalAnimales;
 	}
