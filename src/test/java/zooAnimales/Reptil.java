@@ -45,17 +45,18 @@ public class Reptil extends Animal{
 		return listado.size();
 	}
 	
+	@Override
 	public String movimiento() {
 		return "reptar";
 	}
 	
-	public static Reptil crearIguana() {
+	public static Reptil crearIguana(String n, int e, String g) {
 		Reptil nuevoIguana = new Reptil(n, e, "humedal", g, "verde", 3);
 		iguanas++;
 		return nuevoIguana;
 	}	
 	
-	public static Reptil  crearSerpiente() {
+	public static Reptil crearSerpiente(String n, int e, String g) {
 		Reptil nuevoSerpiente = new Reptil(n, e, "jungla", g, "blanco", 1);
 		serpientes++;
 		return nuevoSerpiente;
