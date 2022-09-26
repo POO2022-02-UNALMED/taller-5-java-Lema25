@@ -33,11 +33,11 @@ public class Ave extends Animal{
 		this.colorPlumas = colorPlumas;
 	}
 	
-	public cantidadAves() {
+	public int cantidadAves() {
 		return listado.size();
 	}
 	
-	public movimiento() {
+	public String movimiento() {
 		return "volar";
 	}
 	

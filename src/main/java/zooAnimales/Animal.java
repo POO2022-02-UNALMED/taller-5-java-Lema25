@@ -71,7 +71,7 @@ public class Animal {
 		this.zona = zona;
 	}
 	
-	public movimiento() {
+	public String movimiento() {
 		return "desplazarse";
 	}
 	

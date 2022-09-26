@@ -41,11 +41,11 @@ public class Reptil extends Animal{
 		this.largoCola = largoCola;
 	}
 	
-	public cantidadResptiles() {
+	public int cantidadResptiles() {
 		return listado.size();
 	}
 	
-	public movimiento() {
+	public String movimiento() {
 		return "reptar";
 	}
 	
