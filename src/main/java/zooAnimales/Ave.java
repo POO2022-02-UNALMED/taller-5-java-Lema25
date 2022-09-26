@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Ave extends Animal{
 	ArrayList<Ave> listado = new ArrayList<Ave>();
 	int halcones;
-	in aguilas;
+	int aguilas;
 	String colorPlumas;
 	
 	public Ave() {

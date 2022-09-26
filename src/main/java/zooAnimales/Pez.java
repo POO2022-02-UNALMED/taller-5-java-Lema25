@@ -7,7 +7,7 @@ public class Pez extends Animal{
 	int salmones;
 	int bacalaos;
 	String colorEscamas;
-	inr cantidadAletas;
+	int cantidadAletas;
 	
 	public Pez() {
 		listado.add(this);
@@ -24,7 +24,7 @@ public class Pez extends Animal{
 		return listado.size();
 	}
 	
-	public string movimiento() {
+	public String movimiento() {
 		return "nadar";
 	}
 	
