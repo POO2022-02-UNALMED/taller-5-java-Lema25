@@ -81,11 +81,13 @@ public class Animal {
 		return totales;
 	}
 	
-	public String toString(){
-		String datos = "Mi nombre es " + this.nombre 
-				+ " tengo una edad de " + this.edad 
-				+ ", habito en "+ this.habitat
-				+ " y mi genero es " + this.genero;
+	public static String totalPorTipo(){
+		String datos = "Mamiferos: " + Mamifero.cantidadMamiferos() 
+			+ "\n" + "Aves: " + Ave.cantidadAves() 
+			+ "\n" + "Reptiles: " + Reptil.cantidadReptiles() 
+			+ "\n" + "Peces: " + Pez.cantidadPeces() 
+			+ "\n" + "Anfibios: " + Anfibio.cantidadAnfibios();
 		return datos;
 	}
+	
 }
