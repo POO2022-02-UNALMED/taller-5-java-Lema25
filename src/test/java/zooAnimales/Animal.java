@@ -83,8 +83,8 @@ public class Animal {
 	
 	public String toString(){
 		String datos = "Mi nombre es " + this.nombre 
-				+ " tengo una edad de " + this.edad 
-				+ ", habito en "+ this.habitat
+				+ ", tengo una edad de " + this.edad 
+				+ ", habito en " + this.habitat 
 				+ " y mi genero es " + this.genero;
 		return datos;
 	}
