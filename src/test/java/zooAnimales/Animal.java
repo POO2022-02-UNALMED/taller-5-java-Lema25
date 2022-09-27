@@ -12,6 +12,9 @@ public class Animal {
 	private String genero;
 	private Zoologico[] zoo;
 	
+	public Animal() {
+		super();
+	}
 	
 	public Animal(String nombre, int edad, String habitat, String genero) {
 		super();
