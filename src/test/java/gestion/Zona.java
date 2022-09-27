@@ -10,7 +10,6 @@ import zooAnimales.Mamifero;
 import zooAnimales.Anfibio;
 
 public class Zona {
-	
 	private String nombre;
 	private Zoologico zoo;
 	private ArrayList<Animal> animales = new ArrayList<Animal>();
@@ -44,6 +43,7 @@ public class Zona {
 	}
 	public void setAnimales(ArrayList<Animal> animales) {
 		this.animales = animales;
+	
 	}
 	
 	public void agregarAnimales(Animal nAnimal) {
